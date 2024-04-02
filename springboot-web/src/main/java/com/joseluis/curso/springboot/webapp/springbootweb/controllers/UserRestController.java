@@ -15,7 +15,7 @@ import com.joseluis.curso.springboot.webapp.springbootweb.models.User;
 @RequestMapping("/api")
 public class UserRestController {
  
-    @GetMapping(path = "/details2")
+    @GetMapping(path = "/details")
     public Map<String,Object> details(){
         
         User user = new User("José Luis", "Hurtado Villa");
